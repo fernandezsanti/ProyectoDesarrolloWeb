@@ -1,0 +1,18 @@
+/* css contacto */
+
+#contacto{background-color: rgb(94, 156, 219); text-decoration: underline; overflow: hidden;}
+
+.cajaMapa{padding: 10px; margin: 50px;}
+
+.mapa{ width: 700px; height: 450px ; }
+
+.cuerpoContacto{display: flex; flex-direction: row;}
+
+.formulario{position: relative; right: 100px;}
+    
+@media (min-width: 320px) and (max-width: 991px){
+.cuerpoContacto{flex-direction: column;}
+.formulario{padding-left: 200px;}
+.mapa{width: 90%; height: 50%;}
+#home{background-size: cover;}
+}
