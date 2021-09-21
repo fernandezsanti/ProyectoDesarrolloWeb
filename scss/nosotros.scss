@@ -1,0 +1,153 @@
+/* css nosotros */
+
+#nosotros{background-color: burlywood; overflow: hidden;}
+
+.tituloNosotros{font-size: 50px;text-decoration: underline;}
+
+.cajaNosotros{padding: 30px; text-align: center;}
+
+.nosotrosCuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mision {
+    padding: 15px;
+    width: 43%;
+    height: 500px;
+    margin: 50px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid coral 3px;
+    transition: all 0.5s;
+}
+
+/* .mision:hover {
+    height: 420px;
+    width: 44%;
+  } */
+
+.vision {
+    padding: 15px;
+    width: 43%;
+    height: 500px;
+    margin: 50px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    border: solid coral 3px;
+    transition: all 0.5s;
+}
+/* 
+.vision:hover {
+    height: 420px;
+    width: 44%;
+  } */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .nosotrosCuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .vision {
+    padding: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 50px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    border: solid coral 3px;
+    transition: all 0.5s;
+    }
+    .mision {
+    padding: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 50px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid coral 3px;
+    transition: all 0.5s;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .nosotrosCuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .vision {
+    padding: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 50px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    border: solid coral 3px;
+    transition: all 0.5s;
+    }
+    .mision {
+    padding: 15px;
+    width: 90%;
+    height: 30%;
+    margin: 50px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid coral 3px;
+    transition: all 0.5s;
+    }
+}
+
+.fotoPerfil{border-radius: 50%; width: 140px; height: 140px;}
+
+.cuerpo{display: flex; flex-direction: column;}
+
+.row{padding: 50px;}
+
+.linkedin{height: 50px; width: 100px; border: black 2px solid; padding: 0px;}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
