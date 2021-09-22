@@ -4,8 +4,6 @@
 
 .cajaMapa{padding: 10px; margin: 50px;}
 
-.mapa{ width: 700px; height: 450px ; }
-
 .cuerpoContacto{display: flex; flex-direction: row;}
 
 .formulario{position: relative; right: 100px;}
@@ -16,3 +14,5 @@
 .mapa{width: 90%; height: 50%;}
 #home{background-size: cover;}
 }
+
+.mapa{width: 600px; height: 400px; max-width: 100%;}
