@@ -5,3 +5,8 @@
 .listaFooter{position: relative; left: 50px;}
 
 .botonFooter{background-color: darkred;border-color: darkred;}
+
+@media (min-width: 320px) and (max-width: 991px){
+
+.seccionFooter{display: none;}
+}
