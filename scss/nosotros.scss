@@ -1,6 +1,6 @@
 /* css nosotros */
 
-#nosotros{background-color: burlywood; overflow: hidden;}
+#nosotros{background-color:  rgb(204, 204, 204);}
 
 .tituloNosotros{font-size: 50px;text-decoration: underline;}
 
@@ -23,8 +23,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: solid coral 3px;
-    transition: all 0.5s;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 10px 5px 0px darkred;
+-webkit-box-shadow: 10px 10px 5px 0px darkred;
+-moz-box-shadow: 10px 10px 5px 0px darkred;
 }
 
 /* .mision:hover {
@@ -44,8 +46,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    border: solid coral 3px;
-    transition: all 0.5s;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 10px 5px 0px darkred;
+-webkit-box-shadow: 10px 10px 5px 0px darkred;
+-moz-box-shadow: 10px 10px 5px 0px darkred;
 }
 /* 
 .vision:hover {
@@ -72,8 +76,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    border: solid coral 3px;
-    transition: all 0.5s;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 10px 5px 0px darkred;
+-webkit-box-shadow: 10px 10px 5px 0px darkred;
+-moz-box-shadow: 10px 10px 5px 0px darkred;
     }
     .mision {
     padding: 15px;
@@ -86,8 +92,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: solid coral 3px;
-    transition: all 0.5s;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 10px 5px 0px darkred;
+    -webkit-box-shadow: 10px 10px 5px 0px darkred;
+    -moz-box-shadow: 10px 10px 5px 0px darkred;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -109,8 +117,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    border: solid coral 3px;
-    transition: all 0.5s;
+    border: solid rgb(0, 0, 0) 3px;
+    box-shadow: 10px 10px 5px 0px darkred;
+-webkit-box-shadow: 10px 10px 5px 0px darkred;
+-moz-box-shadow: 10px 10px 5px 0px darkred;
     }
     .mision {
     padding: 15px;
@@ -124,9 +134,17 @@
     justify-content: center;
     flex-direction: column;
     border: solid coral 3px;
-    transition: all 0.5s;
+    box-shadow: 10px 10px 5px 0px darkred;
+-webkit-box-shadow: 10px 10px 5px 0px darkred;
+-moz-box-shadow: 10px 10px 5px 0px darkred;
     }
 }
+
+.empleo{position: relative; left: 375px;}
+
+.botonEmpleo{color: darkred; border-color: darkred ;}
+
+.ofertaEmpleo{margin-bottom: 50px; margin-top: 50px;}
 
 .fotoPerfil{border-radius: 50%; width: 140px; height: 140px;}
 
@@ -134,7 +152,7 @@
 
 .row{padding: 50px;}
 
-.linkedin{height: 50px; width: 100px; border: black 2px solid; padding: 0px;}
+.linkedin{height: 50px; width: 100px; border: black 2px solid; padding: 0px; margin: 0px;}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

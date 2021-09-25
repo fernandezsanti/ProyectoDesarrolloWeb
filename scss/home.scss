@@ -3,9 +3,12 @@
 #home{background-image: url(./img-compressed/fondoNY.jpeg); background-size: 100%;
     padding-top: 0; margin-top: 0; background-repeat: no-repeat; overflow: hidden;
 }
+
+.index {background-color: rgb(204, 204, 204); z-index: -1;}
+
 .textoHome{font-size: 35px; text-align: center; color: darkred; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.subtituloHome{width: auto; padding: 250px 50px 50px 50px; margin: 50px; color: darkred;}
+.subtituloHome{width: auto; padding: 250px 50px 50px 50px; margin: 50px; color: darkred; font-size: 70px;}
 
 .boton{font-size: 30px; background-color: darkred; border: darkred;}
 
@@ -22,3 +25,5 @@
     .logo{display: none;}
     .nav-link{background-color: rgb(51, 48, 48);}
 }
+
+.cajaAcordeon { width: 80%; margin: 100px; font-size: 30px; position: relative; left: 50px; } 

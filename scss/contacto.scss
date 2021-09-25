@@ -1,8 +1,11 @@
 /* css contacto */
 
-#contacto{background-color: rgb(94, 156, 219); text-decoration: underline; overflow: hidden;}
+#contacto{background-color:  rgb(204, 204, 204);}
 
 .cajaMapa{padding: 10px; margin: 50px;}
+
+
+.tituloContacto{font-size: 50px;text-decoration: underline;}
 
 .cuerpoContacto{display: flex; flex-direction: row;}
 
@@ -15,4 +18,4 @@
 #home{background-size: cover;}
 }
 
-.mapa{width: 600px; height: 400px; max-width: 100%;}
+.mapa{width: 650px; height: 400px; max-width: 100%;}
