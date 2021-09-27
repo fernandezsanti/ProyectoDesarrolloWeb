@@ -230,14 +230,14 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: solid coral 3px;
+    border: solid black 3px;
     box-shadow: 10px 10px 5px 0px darkred;
     -webkit-box-shadow: 10px 10px 5px 0px darkred;
     -moz-box-shadow: 10px 10px 5px 0px darkred; } }
 
 .empleo {
-  position: relative;
-  left: 375px; }
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px; }
 
 .botonEmpleo {
   color: darkred;
