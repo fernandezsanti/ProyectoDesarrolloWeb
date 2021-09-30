@@ -92,7 +92,8 @@ p {
     font-size: 50px;
     position: relative;
     right: 60px;
-    width: 70%; }
+    width: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
   .logo {
     display: none; }
   .nav-link {
