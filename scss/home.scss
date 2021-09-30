@@ -8,7 +8,7 @@
 
 .textoHome{font-size: 35px; text-align: center; color: darkred; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.subtituloHome{width: auto; padding: 250px 50px 50px 50px; margin: 50px; color: darkred; font-size: 70px;}
+.subtituloHome{max-width: auto; padding: 250px 50px 50px 50px; margin: 50px; color: darkred; font-size: 70px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
 .boton{font-size: 30px; background-color: darkred; border: darkred;}
 
@@ -20,10 +20,21 @@
 
 .cajaMenu {flex-direction: column;}
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 350px) and (max-width: 576px) {
+    .tituloHome{display: none;}
+    .subtituloHome{font-size: 50px; position:relative; right:  60px; width: 70%;}
+    .logo{display: none;}
+    .nav-link{background-color: rgb(51, 48, 48);}
+    .cajaAcordeon { width: 70%; font-size: 20px; padding-right: 50px;} 
+    h5{font-size: 20px;}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
     .tituloHome{display: none;}
     .logo{display: none;}
     .nav-link{background-color: rgb(51, 48, 48);}
+    .cajaAcordeon { width: 70%; font-size: 20px; padding-right: 50px;} 
+    h5{font-size: 20px;}
 }
 
-.cajaAcordeon { width: 80%; margin: 100px; font-size: 30px; position: relative; left: 50px; } 
+.cajaAcordeon { max-width: 80%; margin: 100px; font-size: 30px;} 
