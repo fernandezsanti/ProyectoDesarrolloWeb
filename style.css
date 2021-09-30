@@ -332,6 +332,9 @@ p {
   background-color: darkred;
   border: darkred; }
 
+.navbar-collapse {
+  z-index: 99; }
+
 /* css galeria */
 #galeria {
   background-color: #cccccc; }
