@@ -1,7 +1,7 @@
 /* css home */ 
 
-#home{background-image: url(./img-compressed/fondoNY.jpeg); background-size: 100%;
-    padding-top: 0; margin-top: 0; background-repeat: no-repeat; overflow: hidden;
+#home{background-image: url(./img-compressed/fondoNY.jpeg); background-size: 100%; height: max-content;
+    padding-top: 0; margin-top: 0; background-repeat: no-repeat; background-size: cover; overflow: hidden;
 }
 
 .index {background-color: rgb(204, 204, 204); z-index: -1;}
@@ -22,7 +22,7 @@
 
 @media (min-width: 350px) and (max-width: 576px) {
     .tituloHome{display: none;}
-    .subtituloHome{font-size: 50px; position:relative; right:  60px; width: 70%;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    /* .subtituloHome{font-size: 50px; position:relative; right:  60px; width: 70%;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif} */
     .logo{display: none;}
     .nav-link{background-color: rgb(51, 48, 48);}
     .cajaAcordeon { width: 70%; font-size: 20px; padding-right: 50px;} 
@@ -36,5 +36,7 @@
     .cajaAcordeon { width: 70%; font-size: 20px; padding-right: 50px;} 
     h5{font-size: 20px;}
 }
+
+
 
 .cajaAcordeon { max-width: 80%; margin: 100px; font-size: 30px;} 

@@ -18,7 +18,7 @@ h1 {
   font-size: 45px; }
 
 h5 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center; }
 
 p {
@@ -43,9 +43,11 @@ p {
 #home {
   background-image: url(./img-compressed/fondoNY.jpeg);
   background-size: 100%;
+  height: max-content;
   padding-top: 0;
   margin-top: 0;
   background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden; }
 
 .index {
@@ -88,12 +90,7 @@ p {
 @media (min-width: 350px) and (max-width: 576px) {
   .tituloHome {
     display: none; }
-  .subtituloHome {
-    font-size: 50px;
-    position: relative;
-    right: 60px;
-    width: 70%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  /* .subtituloHome{font-size: 50px; position:relative; right:  60px; width: 70%;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif} */
   .logo {
     display: none; }
   .nav-link {
@@ -366,22 +363,34 @@ p {
   height: 425px; }
 
 .tituloVideoUno {
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  font-size: 30px;
+  text-align: center;
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .tituloVideoUno:hover {
-  font-size: 50px; }
+  font-size: 35px; }
 
 .tituloVideoDos {
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  font-size: 30px;
+  text-align: center;
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .tituloVideoDos:hover {
-  font-size: 50px; }
+  font-size: 35px; }
 
 .tituloVideoTres {
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  font-size: 30px;
+  text-align: center;
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .tituloVideoTres:hover {
-  font-size: 50px; }
+  font-size: 35px; }
 
 .galeriaPadre {
   display: flex;
@@ -444,7 +453,8 @@ h2 {
   .cuerpoContacto {
     flex-direction: column; }
   .formulario {
-    padding-left: 200px; }
+    padding-left: 200px;
+    width: 80%; }
   .mapa {
     width: 90%;
     height: 50%; }
@@ -470,4 +480,6 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 991px) {
   .seccionFooter {
-    display: none; } }
+    display: none; }
+  .footerMobile {
+    width: max-content; } }

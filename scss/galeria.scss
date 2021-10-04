@@ -10,17 +10,17 @@
 
 .videoTres{display:flex; margin: 10px; flex-direction: column; width: 600px; height: 425px;}
 
-.tituloVideoUno{transition: all 0.5s;}
+.tituloVideoUno{transition: all 0.5s; font-size: 30px; text-align: center; color: darkred; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.tituloVideoUno:hover{font-size: 50px;}
+.tituloVideoUno:hover{font-size: 35px;}
 
-.tituloVideoDos{transition: all 0.5s;}
+.tituloVideoDos{transition: all 0.5s; font-size: 30px; text-align: center; color: darkred; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.tituloVideoDos:hover{font-size: 50px;}
+.tituloVideoDos:hover{font-size: 35px;}
 
-.tituloVideoTres{transition: all 0.5s;}
+.tituloVideoTres{transition: all 0.5s; font-size: 30px; text-align: center; color: darkred; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.tituloVideoTres:hover{font-size: 50px;}
+.tituloVideoTres:hover{font-size: 35px;}
 
 .galeriaPadre{display:flex; flex-direction: row; 
     justify-content: center; align-items: stretch; flex-wrap: wrap; }
