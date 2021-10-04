@@ -11,11 +11,17 @@
 
 .formulario{position: relative; right: 100px;}
     
-@media (min-width: 320px) and (max-width: 991px){
+@media (min-width: 576px) and (max-width: 991px){
 .cuerpoContacto{flex-direction: column;}
-.formulario{padding-left: 200px; width: 80%;}
+.formulario{width: 90%; position: relative; left: 25px; align-content: center;}
 .mapa{width: 90%; height: 50%;}
-#home{background-size: cover;}
+input{width: 255px;}
 }
+
+@media (min-width: 320px) and (max-width: 576px){
+    .cuerpoContacto{flex-direction: column;}
+    .formulario{width: 90%; position: relative; align-content: center; margin-left: 100px;}
+    .mapa{width: 90%; height: 50%;}
+    }
 
 .mapa{width: 650px; height: 400px; max-width: 100%;}
