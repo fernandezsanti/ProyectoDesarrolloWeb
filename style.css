@@ -335,6 +335,10 @@ p {
 .navbar-collapse {
   z-index: 99; }
 
+.fotoServicios {
+  height: 500px;
+  width: 500px; }
+
 /* css galeria */
 #galeria {
   background-color: #cccccc; }
