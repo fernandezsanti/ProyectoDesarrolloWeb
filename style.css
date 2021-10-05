@@ -122,9 +122,7 @@ p {
     font-size: 20px; } }
 
 .cajaAcordeon {
-  max-width: 80%;
-  margin: 100px;
-  font-size: 30px; }
+  padding: 100px; }
 
 /* css nosotros */
 #nosotros {
@@ -473,9 +471,8 @@ h2 {
     flex-direction: column; }
   .formulario {
     width: 90%;
-    position: relative;
-    align-content: center;
-    margin-left: 100px; }
+    justify-content: center;
+    margin-left: 120px; }
   .mapa {
     width: 90%;
     height: 50%; } }
@@ -490,8 +487,7 @@ h2 {
   text-align: justify; }
 
 .listaFooter {
-  position: relative;
-  left: 50px; }
+  justify-content: center; }
 
 .botonFooter {
   background-color: darkred;

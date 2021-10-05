@@ -20,7 +20,7 @@ input{width: 255px;}
 
 @media (min-width: 320px) and (max-width: 576px){
     .cuerpoContacto{flex-direction: column;}
-    .formulario{width: 90%; position: relative; align-content: center; margin-left: 100px;}
+    .formulario{width: 90%; justify-content: center; margin-left: 120px;}
     .mapa{width: 90%; height: 50%;}
     }
 
