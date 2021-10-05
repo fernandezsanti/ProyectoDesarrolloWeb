@@ -90,7 +90,12 @@ p {
 @media (min-width: 350px) and (max-width: 576px) {
   .tituloHome {
     display: none; }
-  /* .subtituloHome{font-size: 50px; position:relative; right:  60px; width: 70%;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif} */
+  .subtituloHome {
+    font-size: 50px;
+    position: relative;
+    right: 70px;
+    width: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
   .logo {
     display: none; }
   .nav-link {
