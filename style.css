@@ -73,10 +73,16 @@ p {
   background-color: darkred;
   border: darkred; }
 
+.boton:hover {
+  background-color: black; }
+
 .botonChico {
   font-size: 20px;
   background-color: darkred;
   border: darkred; }
+
+.botonChico:hover {
+  background-color: black; }
 
 .botonChicoDos {
   font-size: 20px; }
@@ -338,6 +344,15 @@ p {
   background-color: darkred;
   border: darkred; }
 
+.botonGratis:hover {
+  background-color: black; }
+
+.botonPremium:hover {
+  background-color: black; }
+
+.botonPro:hover {
+  background-color: black; }
+
 .navbar-collapse {
   z-index: 99; }
 
@@ -462,6 +477,13 @@ h2 {
   position: relative;
   right: 100px; }
 
+.botonContacto {
+  background-color: darkred;
+  border: darkred; }
+
+.botonContacto:hover {
+  background-color: black; }
+
 @media (min-width: 576px) and (max-width: 991px) {
   .cuerpoContacto {
     flex-direction: column; }
@@ -502,6 +524,9 @@ h2 {
 .botonFooter {
   background-color: darkred;
   border-color: darkred; }
+
+.botonFooter:hover {
+  background-color: black; }
 
 @media (min-width: 320px) and (max-width: 991px) {
   .seccionFooter {

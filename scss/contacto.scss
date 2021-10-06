@@ -10,7 +10,11 @@
 .cuerpoContacto{display: flex; flex-direction: row;}
 
 .formulario{position: relative; right: 100px;}
-    
+
+.botonContacto{background-color: darkred; border: darkred;}
+
+.botonContacto:hover{background-color: black;}
+
 @media (min-width: 576px) and (max-width: 991px){
 .cuerpoContacto{flex-direction: column;}
 .formulario{width: 90%; position: relative; left: 25px; align-content: center;}
