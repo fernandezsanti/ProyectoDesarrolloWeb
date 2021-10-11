@@ -96,7 +96,7 @@ p {
 .cajaAcordeon {
   padding: 100px; }
 
-@media (min-width: 350px) and (max-width: 576px) {
+@media (min-width: 350px) and (max-width: 420px) {
   .tituloHome {
     display: none; }
   .subtituloHome {
@@ -105,6 +105,27 @@ p {
     right: 70px;
     width: 70%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .textoHome {
+    font-size: 25px;
+    text-align: center;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .logo {
+    display: none; }
+  .nav-link {
+    background-color: #333030; }
+  .cajaAcordeon {
+    width: 100%;
+    font-size: 15px;
+    padding: 40px; }
+  .acordeon {
+    width: 100%; }
+  h5 {
+    font-size: 20px; } }
+
+@media (min-width: 421px) and (max-width: 575px) {
+  .tituloHome {
+    display: none; }
   .textoHome {
     font-size: 25px;
     text-align: center;
@@ -526,7 +547,8 @@ h2 {
   border-color: darkred; }
 
 .botonFooter:hover {
-  background-color: black; }
+  background-color: black;
+  border-color: black; }
 
 @media (min-width: 320px) and (max-width: 991px) {
   .seccionFooter {
