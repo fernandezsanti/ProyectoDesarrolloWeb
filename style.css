@@ -39,6 +39,21 @@ p {
 .nav-item {
   font-size: 30px; }
 
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .cajaHeader {
+    overflow: hidden;
+    font-size: 27px; } }
+
+@media (min-width: 1081px) and (max-width: 1180px) {
+  .cajaHeader {
+    overflow: hidden;
+    font-size: 24px; } }
+
+@media (min-width: 991px) and (max-width: 1080px) {
+  .cajaHeader {
+    overflow: hidden;
+    font-size: 21px; } }
+
 /* css home */
 #home {
   background-image: url(./img-compressed/fondoNY.jpeg);
